@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="">
+<style>
+header {
+    width: 500px;
+    height: 120px;
+    background-color: aquamarine;
+    border: 2px solid black;
+    text-decoration: brown;
+    text-size-adjust: 150px;
+}
+
+foodpin1 {
+    position: absolute;
+    width: 470px;
+    height: 500px;
+    background-color: aqua;
+    position: fixed;
+    top: 150px;
+    left: 20px;
+    border: 2px dashed red;
+    text-decoration: brown;
+    background-size: cover;
+}
+foodpin2 {
+    position: relative;
+    width: 470px;
+    height: 500px;
+    background-color: aqua;
+    position: fixed;
+    top: 700px;
+    left: 20px;
+    border: 2px dashed red;
+    text-decoration: brown;
+}
+foodpin3 {
+    position: relative;
+    width: 470px;
+    height: 500px;
+    background-color: aqua;
+    position: fixed;
+    top: 150px;
+    left: 500px;
+    border: 2px dashed red;
+    text-decoration: brown;
+}
+
+foodpin4 {
+    position: relative;
+    width: 470px;
+    height: 500px;
+    background-color: aqua;
+    position: fixed;
+    top: 700px;
+    left: 500px;
+    border: 2px dashed red;
+    text-decoration: brown;
+    background-size: cover;
+}
+
+home {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-size: cover;
+}
+
+</style>
+<body>
+    <header>
+        <h2>Best Food places in Indy</h2>
+        <p1>WHEN VISITING INDINAPOLIS INDIANA, THESE ARE THE BEST FOOD PLACES TO ATTEND</p1>
+    </header>
+    <foodpin1>
+        <h2>American Food</h2>
+        <div class="americanpic"><img src ="american.jpg" alt="americanpic"></div>
+        <h1>The Oakmont</h1>
+        <p1>The Mass Ave District's hottest and most fun restaurant and bar. The Oakmont is a trendy spot with eclectic decor, offering elevated versions of comfort classics and weekend brunch.</p1>
+    </foodpin1>
+
+    <foodpin2>
+        <h2>Italian Food</h2>
+        <h1>So Italian</h1>
+        <p>So Italian is a restaurant that offers delicious and flavorful food, with hot temperatures and friendly staff. Notable dishes include Vicki's breadsticks filled with cheese, mushroom alfredo, giant pizza slices with various toppings, and lasagna.</p>
+        <div class="Italianpic"><img src="italian.jpg" alt="italianpic"></div>
+    </foodpin2>
+    
+    <foodpin3>
+        <h2>Chinese Food</h2>
+        <h1>PF Changs</h1>
+        <p1>P.F. Chang's Indianapolis is a Chinese restaurant serving Mongolian, Thai, Korean, and other pan-Asian dishes.</p1>
+        <div class="chinesepic"><img src="chinese.jpg" alt="chinesepc"></div>
+    </foodpin3>
+
+    <foodpin4>
+        <h2>Greek Food</h2>
+        <h1>Greek Island Lot</h1>
+        <p>Greek Islands, a restaurant in Indy, offers authentic Greek food that is hard to find in other places. The restaurant is currently facing some challenges due to road construction, but the quality of the food and service remains excellent.</p>
+        <div class="greek"><img src="greek.jpg" alt="greekpc"></div>
+    </foodpin4>
+
+    <home>
+        <div class="home"><img src="home.jpg" alt="home"></div>
+    </home>
+
+
+</body>
+</html>
